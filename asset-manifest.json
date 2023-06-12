@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kongsberg/static/css/main.2b8099b5.css",
+    "main.js": "/kongsberg/static/js/main.a5e94d5e.js",
+    "index.html": "/kongsberg/index.html",
+    "main.2b8099b5.css.map": "/kongsberg/static/css/main.2b8099b5.css.map",
+    "main.a5e94d5e.js.map": "/kongsberg/static/js/main.a5e94d5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b8099b5.css",
+    "static/js/main.a5e94d5e.js"
+  ]
+}
