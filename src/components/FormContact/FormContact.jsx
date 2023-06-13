@@ -1,16 +1,17 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import css from './FormContact.module.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { addContactsThunk, getContactsThunk } from 'store/thunk';
+import {
+  useAddContactMutation,
+  useGetContactsQuery,
+} from '../../services/contactsApi copy';
+import { toast } from 'react-toastify';
 
 export function FormContacts() {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(getContactsThunk());
-  }, [dispatch]);
+  const { data: contacts } = useGetContactsQuery();
+  const [addContact] = useAddContactMutation();
 
   const handleChange = e => {
     const { name, value } = e.target;
@@ -27,8 +28,6 @@ export function FormContacts() {
     }
   };
 
-  const { items } = useSelector(state => state.contacts.contacts);
-
   const handleSubmit = e => {
     e.preventDefault();
 
@@ -38,7 +37,7 @@ export function FormContacts() {
     };
 
     if (
-      items.some(
+      contacts.some(
         contact =>
           contact.name.toLowerCase().trim() === name.toLowerCase().trim()
       )
@@ -46,7 +45,8 @@ export function FormContacts() {
       return alert(`${name} is already exist in contacts`);
     }
 
-    dispatch(addContactsThunk(newContacts));
+    addContact(newContacts);
+    toast.info(`"${name}" added to your contacts`);
 
     setName('');
     setNumber('');
