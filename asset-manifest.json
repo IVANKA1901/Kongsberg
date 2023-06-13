@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kongsberg/static/css/main.2b8099b5.css",
-    "main.js": "/kongsberg/static/js/main.5b78fa38.js",
+    "main.js": "/kongsberg/static/js/main.ab770457.js",
     "index.html": "/kongsberg/index.html",
     "main.2b8099b5.css.map": "/kongsberg/static/css/main.2b8099b5.css.map",
-    "main.5b78fa38.js.map": "/kongsberg/static/js/main.5b78fa38.js.map"
+    "main.ab770457.js.map": "/kongsberg/static/js/main.ab770457.js.map"
   },
   "entrypoints": [
     "static/css/main.2b8099b5.css",
-    "static/js/main.5b78fa38.js"
+    "static/js/main.ab770457.js"
   ]
 }
