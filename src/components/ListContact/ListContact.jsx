@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import {
   useDeleteContactMutation,
   useGetContactsQuery,
-} from 'services/contactsApi copy';
+} from 'services/contactsApi';
 import Notiflix from 'notiflix';
 
 export function ListContact() {

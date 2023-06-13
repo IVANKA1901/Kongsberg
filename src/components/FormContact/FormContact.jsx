@@ -3,8 +3,8 @@ import css from './FormContact.module.css';
 import {
   useAddContactMutation,
   useGetContactsQuery,
-} from '../../services/contactsApi copy';
-import { toast } from 'react-toastify';
+} from '../../services/contactsApi';
+import Notiflix from 'notiflix';
 
 export function FormContacts() {
   const [name, setName] = useState('');
@@ -46,7 +46,7 @@ export function FormContacts() {
     }
 
     addContact(newContacts);
-    toast.info(`"${name}" added to your contacts`);
+    Notiflix.Notify.info(`"${name}" added to your contacts`);
 
     setName('');
     setNumber('');
