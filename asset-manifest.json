@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/kongsberg/static/css/main.2b8099b5.css",
-    "main.js": "/kongsberg/static/js/main.ab770457.js",
-    "index.html": "/kongsberg/index.html",
-    "main.2b8099b5.css.map": "/kongsberg/static/css/main.2b8099b5.css.map",
-    "main.ab770457.js.map": "/kongsberg/static/js/main.ab770457.js.map"
+    "main.css": "/rtk-query-homework/static/css/main.2b8099b5.css",
+    "main.js": "/rtk-query-homework/static/js/main.ab770457.js",
+    "index.html": "/rtk-query-homework/index.html",
+    "main.2b8099b5.css.map": "/rtk-query-homework/static/css/main.2b8099b5.css.map",
+    "main.ab770457.js.map": "/rtk-query-homework/static/js/main.ab770457.js.map"
   },
   "entrypoints": [
     "static/css/main.2b8099b5.css",
