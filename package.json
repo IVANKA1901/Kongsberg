@@ -1,8 +1,8 @@
 {
-  "name": "kongsberg",
+  "name": "rtk-query-homework",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://IVANKA1901.github.io/kongsberg/",
+  "homepage": "https://IVANKA1901.github.io/rtk-query-homework/",
   "dependencies": {
     "@redux-devtools/extension": "^3.2.5",
     "@reduxjs/toolkit": "^1.9.5",
