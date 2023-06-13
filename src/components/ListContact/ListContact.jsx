@@ -10,7 +10,7 @@ import Notiflix from 'notiflix';
 export function ListContact() {
   const filter = useSelector(state => state.filter.filter);
   const { data: contacts, isError, isLoading } = useGetContactsQuery();
-  console.log(contacts);
+
   const [deleteContact] = useDeleteContactMutation();
 
   const onDeleteContact = id => {
