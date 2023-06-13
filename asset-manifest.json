@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/rtk-query-homework/static/css/main.2b8099b5.css",
-    "main.js": "/rtk-query-homework/static/js/main.ab770457.js",
+    "main.js": "/rtk-query-homework/static/js/main.8af4beae.js",
     "index.html": "/rtk-query-homework/index.html",
     "main.2b8099b5.css.map": "/rtk-query-homework/static/css/main.2b8099b5.css.map",
-    "main.ab770457.js.map": "/rtk-query-homework/static/js/main.ab770457.js.map"
+    "main.8af4beae.js.map": "/rtk-query-homework/static/js/main.8af4beae.js.map"
   },
   "entrypoints": [
     "static/css/main.2b8099b5.css",
-    "static/js/main.ab770457.js"
+    "static/js/main.8af4beae.js"
   ]
 }
